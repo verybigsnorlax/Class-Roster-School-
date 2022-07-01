@@ -14,4 +14,4 @@ student.o: student.h
 # clean by removing object files.
 
 clean:
-	rm -f main.o
+	rm -f main.o roster.o student.o
