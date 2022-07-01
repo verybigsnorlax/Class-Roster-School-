@@ -46,8 +46,17 @@ You must write a program containing two classes (i.e., Student and Roster). The 
 <br>
 
 <a name='TheProgram'></a>
+### The Program
+<p>The following steps describe what main.cpp should produce.</p>
+
 <a name='Classes'></a>
+#### Classes
+
+
 <a name='Algorithms'></a>
+#### Algorithms
+
+<br>
 
 <a name='AddInfo'></a>
 ### Additional Information
