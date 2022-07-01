@@ -13,6 +13,7 @@
   - [Classes](#Classes)
   - [Algorithms](#Algorithms)
 - [Additional Information](#AddInfo)
+<br>
 
 <a name='About'></a>
 ### About this Project
@@ -28,14 +29,31 @@ You must write a program containing two classes (i.e., Student and Roster). The 
 <a name='BuiltWith'></a>
 #### Built With
 <p>This program was built using C++ with no additional imported libraries.</p>
-<p>The project environment was on Windows 10 using Visual Studios</p>
+<p>The project environment was on Windows 10 using Visual Studios Code</p>
+<br>
 
 <a name='Usage'></a>
 ### Usage
-<p>In order to run the program, you must have a GNU C++ Compiler (g++).</p>
-<p>First compile the main.cpp </p>
+<p>In order to run the program, you must have a GNU C++ Compiler (g++). Make sure the header and implementation files are in the same directory as main.cpp</p><br>
+<p>For Windows: </p>
+<p>The easiest way to run this program on Windows is through Visual Studios Code or using a Linux Virtual Machine.</p>
+<p>For Linux: </p>
+<p>Once all the files are in the same directory including the makefile, just run the make command in the terminal.</p>
+
 <a name='Requirements'></a>
+#### Requirements
+<p>Other than a C++ compiler, there are no specific requirements to run this program.</p>
+<br>
+
 <a name='TheProgram'></a>
 <a name='Classes'></a>
 <a name='Algorithms'></a>
+
 <a name='AddInfo'></a>
+### Additional Information
+<p>This project was required for my Scripting and Programming Applications Course at WGU</p>
+<p><strong>Initiated</strong> on March 14, 2021</p>
+<p><strong>Completed</strong> on March 17, 2021</p>
+<br>
+
+[Back to the Top ↑↑↑↑↑](#Top)
