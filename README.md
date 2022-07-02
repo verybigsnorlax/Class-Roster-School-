@@ -28,15 +28,18 @@ _You must write a program containing two classes (i.e., Student and Roster). The
 <a name='BuiltWith'></a>
 ### Built With
 This program was built using C++ with no additional imported libraries.
-The project environment was on Windows 10 using Visual Studios Code
+The project environment was on Windows 10 using Visual Studios Code.
 
 <a name='Usage'></a>
 ## Usage
-In order to run the program, you must have a GNU C++ Compiler (g++). Make sure the header and implementation files are in the same directory as main.cpp
+In order to run the program, you must have a GNU C++ Compiler (g++). Make sure the header and implementation files are in the same directory as main.cpp.
 
 For Windows:
+
 The easiest way to run this program on Windows is through Visual Studios Code or using a Linux Virtual Machine.
+
 For Linux: 
+
 Once all the files are in the same directory including the makefile, just run the make command in the terminal.
 
 <a name='Requirements'></a>
@@ -71,9 +74,9 @@ There are two classes for this program: Student and Roster.
 
 **Student Class**
 
-The Student object is responsible for representing each student by holding the student's information. Below is the class UML Diagram.
+The Student object is responsible for representing each student by encapsulating the student's information. Below is the class UML Diagram.
 
-![Image of the Student UML Diagram](https://github.com/verybigsnorlax/ClassRoster-SchoolProject/blob/a952a1f51b149008fb6eafcfde2fc051c35f093f/images/student_UML.png)
+![Image of the Student UML Diagram](https://github.com/verybigsnorlax/ClassRoster-SchoolProject/blob/5584631042cde3ad97c997a72084036488067d38/images/student_UML.png)
 
 The Student Class contains basic attributes that describe the student such as their student ID, name, email, age, and degree program. For each attribute there is an accessor (getter) function and a mutator (setter) function.
 
@@ -85,21 +88,34 @@ The final function included in the Student Class is a print function that prints
 INPUT: 
 int arr[] = {30, 35, 40};
 student1 = Student("A1", "John", "Smith", "John1989@gmail.com", 20, arr, DegreeProgram::SECURITY);
+student1.print();
 
+OUTPUT:
 Student ID: A1  First Name: John  Last Name: Smith  Email Address: John1989@gmail.com  Age: 20  Days in Course: {30, 35, 40}  Degree Program: Security
 ```
 
+**Roster Class**
+
+The Roster object is responsible for representing an entire Class Roster by holding an array of Student objects of students that are enrolled in the class.
+
 ![Image of the Roster UML Diagram](https://github.com/verybigsnorlax/ClassRoster-SchoolProject/blob/e9b15c7aad3ce9d95787e6f41531bb45743e6207/images/roster_UML.png)
+
+The Roster Class contains one attribute which is a class roster array that holds Student objects.
+
+There is one Roster Class Constructor and one Roster Class Destructor. The default constructor will set the class roster array to nullptrs and the destructor will deallocate the memory of the pointers before the program stops running.
+
+Other methods consist of adding and removing Students along with printing all the Students and printing other things like the average days left in course, invalid emails, and printing Students of given degree programs.
 
 <a name='Algorithms'></a>
 ### Algorithms
-
-<br>
+No specific algorithms were used for this program. This program mainly consisted of creating two Class definitions and implementing the accessor, mutator, and print methods defined in the classes.
 
 <a name='AddInfo'></a>
 ## Additional Information
 This project was required for my Scripting and Programming Applications Course at WGU
+
 **Initiated** on March 14, 2021
+
 **Completed** on March 17, 2021
 
 
