@@ -75,6 +75,22 @@ The Student object is responsible for representing each student by holding the s
 
 ![Image of the Student UML Diagram](https://github.com/verybigsnorlax/ClassRoster-SchoolProject/blob/a952a1f51b149008fb6eafcfde2fc051c35f093f/images/student_UML.png)
 
+The Student Class contains basic attributes that describe the student such as their student ID, name, email, age, and degree program. For each attribute there is an accessor (getter) function and a mutator (setter) function.
+
+There are two Student Class Constructors. The first one is a default constructor that initializes all attributes/variables and the second constructor is a parameterized constructor that takes in all the attributes as a paramter and initializes the attributes to the given values.
+
+The final function included in the Student Class is a print function that prints the student's attributes in a specific format such as:
+
+```
+INPUT: 
+int arr[] = {30, 35, 40};
+student1 = Student("A1", "John", "Smith", "John1989@gmail.com", 20, arr, DegreeProgram::SECURITY);
+
+Student ID: A1  First Name: John  Last Name: Smith  Email Address: John1989@gmail.com  Age: 20  Days in Course: {30, 35, 40}  Degree Program: Security
+```
+
+![Image of the Roster UML Diagram](https://github.com/verybigsnorlax/ClassRoster-SchoolProject/blob/e9b15c7aad3ce9d95787e6f41531bb45743e6207/images/roster_UML.png)
+
 <a name='Algorithms'></a>
 ### Algorithms
 
