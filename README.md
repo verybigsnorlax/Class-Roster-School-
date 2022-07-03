@@ -11,7 +11,8 @@
   - [Classes](#Classes)
   - [Algorithms](#Algorithms)
 - [Additional Information](#AddInfo)
-<br>
+
+
 
 <a name='About'></a>
 ## About this Project
